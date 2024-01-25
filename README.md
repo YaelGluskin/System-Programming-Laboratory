@@ -31,12 +31,11 @@ This assignment focuses on [provide a brief description of the task or topic cov
 To explore the assignments, navigate to the respective folders and review the README or source code files. Each assignment folder contains its own set of instructions, source code, and necessary files.
 **How to Run:**
 1. Open a terminal in the project directory.
-2. Run the make command that will use the makefile
-   The ternumal ouyput will be somthing like this:
+2. Run the make command that will use the makefile ```make```
+   The terminal output will be somthing like this:
    ```bash
    gcc -g -ansi -Wall -pedantic my_progrem.c -o run
    ```
-   - in VS code you should run the mingw32-make comand
 3. Run the command:
    ```bash
    ./run
@@ -45,6 +44,8 @@ To explore the assignments, navigate to the respective folders and review the RE
 
 ## Notes
 
+- Ensure you have a compatible C compiler (e.g., GCC) installed on your system.
+- If running on Windows with MinGW, use `mingw32-make` instead of `make`.
 - You can also run useing the VS comailer - the  instruction are in the .vscode folder.
 - [Mention any dependencies or prerequisites]
 
