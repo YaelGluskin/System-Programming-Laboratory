@@ -92,6 +92,3 @@ Feel free to explore the assignments, learn from the code, and use them as a ref
 
 Happy coding!
 
-```Java
-int
-```
