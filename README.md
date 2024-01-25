@@ -1,30 +1,73 @@
-# System Programming Laboratory - Open University
+# System Programming Laboratory
 
 Welcome to the repository for assignments from the System Programming Laboratory course at the Open University, focusing on C language programming. Each folder in this repository represents a different assignment completed during the course.
 
-## Folders
+## Assignments Overview
 
-### Assignment1: [Folder Name]
+### Assignment 1: 
+  #### Maman11Q1
 
-**Description:**
+  **Description:**
 
-This assignment focuses on [provide a brief description of the task or topic covered in this assignment].
+  This program get a string as a parameter and sends it to a function that detects sequences in it,
+  shortens it accordingly, and prints it when it is shortened.
 
-**Files:**
-- `main.c`: [Brief description of the main C file]
-- `helper.h`: [Brief description of the helper header file]
-  
-### Assignment2: [Folder Name]
+  **Files:**
+  - `abc.c`: Runs the program
+  - `makefile`:
+  - 
+  #### Maman11Q2
+
+  **Description:**
+
+  [Provide a brief overview of the task or topic addressed in this assignment]
+
+  **Files:**
+  - `my_rottate.c`: This program performs a b-bit rotation on the a parameter.
+  - `makefile.h`:
+
+### Assignment 2: Maman12Q1
 
 **Description:**
 
 [Provide a brief description of the task or topic covered in this assignment]
 
 **Files:**
-- `program.c`: [Brief description of the main C file]
-- `functions.h`: [Brief description of the functions header file]
+- `my_bcmp.c`: The program compares the len bytes, starting from where 1b points, to the len bytes, starting
+  from where 2b points
+- `makefile.h`:
 
-[Repeat the above structure for each assignment folder]
+### Assignment 3: Maman22
+
+**Description:**
+
+[Provide a brief overview of the task or topic addressed in this assignment]
+
+**Files:**
+- `core_logic.c`: [Summarize the main C file]
+- `support_functions.h`: [Briefly explain the support functions header file]
+
+### Assignment 5: Maman23
+
+**Description:**
+
+[Provide a brief description of the task or topic covered in this assignment]
+
+**Files:**
+- `implementation.c`: [Concisely describe the main C file]
+- `common_utilities.h`: [Briefly explain the common utilities header file]
+
+## Instructions
+
+To explore each assignment, navigate to the respective folders and review the README or source code files. Each assignment folder contains its set of instructions, source code, and necessary files.
+
+**How to Run:**
+1. Open a terminal in the project directory.
+2. Execute the make command using the provided makefile: `make`
+   The terminal output will resemble the following:
+   ```bash
+   gcc -g -ansi -Wall -pedantic my_program.c -o run
+
 
 ## Instructions
 
