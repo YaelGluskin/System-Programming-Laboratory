@@ -30,7 +30,8 @@ Welcome to the repository for assignments from the System Programming Laboratory
 
 **Description:**
 
-[Provide a brief description of the task or topic covered in this assignment]
+The program compares the len bytes, starting from where 1b points, to the len bytes, starting
+from where 2b points
 
 **Files:**
 - `my_bcmp.c`: The program compares the len bytes, starting from where 1b points, to the len bytes, starting
