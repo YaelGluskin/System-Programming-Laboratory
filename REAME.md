@@ -44,3 +44,26 @@ To explore the assignments, navigate to the respective folders and review the RE
 Feel free to explore the assignments, learn from the code, and use them as a reference for your own learning journey. If you have any questions or improvements, feel free to open an issue or contribute!
 
 Happy coding!
+```jason
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "./your_program",
+            "dependsOn": ["build"]
+        }
+    ]
+}
+
+```
