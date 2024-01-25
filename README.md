@@ -68,7 +68,9 @@ To explore each assignment, navigate to the respective folders and review the RE
 
 **How to Run:**
 1. Open a terminal in the project directory.
-2. Execute the make command using the provided makefile: `make`
+2. Execute the make command using the provided makefile:
+   ```make```
+
    The terminal output will resemble the following:
    ```bash
    gcc -g -ansi -Wall -pedantic my_program.c -o run
