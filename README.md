@@ -5,7 +5,7 @@ Welcome to the repository for assignments from the System Programming Laboratory
 ## Assignments Overview
 
 ### Assignment 1: 
-  #### Maman11Q1
+### Maman11Q1
 
   **Description:**
 
@@ -16,11 +16,11 @@ Welcome to the repository for assignments from the System Programming Laboratory
   - `abc.c`: Runs the program
   - `makefile`:
   - 
-  #### Maman11Q2
+  ### Maman11Q2
 
   **Description:**
 
-  [Provide a brief overview of the task or topic addressed in this assignment]
+  This program performs b bits rotation on the a parameter.
 
   **Files:**
   - `my_rottate.c`: This program performs a b-bit rotation on the a parameter.
@@ -41,21 +41,26 @@ Welcome to the repository for assignments from the System Programming Laboratory
 
 **Description:**
 
-[Provide a brief overview of the task or topic addressed in this assignment]
+This program performs set operations on six sets (A, B, C, D, E, F) using various commands.
 
 **Files:**
-- `core_logic.c`: [Summarize the main C file]
-- `support_functions.h`: [Briefly explain the support functions header file]
+- `myset.c`: Main program that utilizes set operations and functions.
+- `set.c`: File defining set operations and functions.
+- `set.h`: Header file defining set operations and functions.
+- `valid_func.c`: File containing validation functions for the program.
+- `valid_func.h`: Header file containing validation functions for the program.
+- `makefile.h`:
 
-### Assignment 5: Maman23
+### Assignment 4: Maman23
 
 **Description:**
 
-[Provide a brief description of the task or topic covered in this assignment]
+The Permutation Checker is a simple C program designed to check for permutations of a given word within a text file.
 
 **Files:**
-- `implementation.c`: [Concisely describe the main C file]
-- `common_utilities.h`: [Briefly explain the common utilities header file]
+- `permut.c`:  Utilizes the `is_permut` function to identify and print permutations found in the specified file.
+- `permut.h`: Header file.
+- `makefile.h`:
 
 ## Instructions
 
@@ -74,7 +79,7 @@ To explore each assignment, navigate to the respective folders and review the RE
 To explore the assignments, navigate to the respective folders and review the README or source code files. Each assignment folder contains its own set of instructions, source code, and necessary files.
 **How to Run:**
 1. Open a terminal in the project directory.
-2. Run the make command that will use the makefile ```make```
+2. Run the make command that will use the makefile ```bash make```
    The terminal output will be somthing like this:
    ```bash
    gcc -g -ansi -Wall -pedantic my_progrem.c -o run
@@ -89,8 +94,7 @@ To explore the assignments, navigate to the respective folders and review the RE
 
 - Ensure you have a compatible C compiler (e.g., GCC) installed on your system.
 - If running on Windows with MinGW, use `mingw32-make` instead of `make`.
-- You can also run useing the VS comailer - the  instruction are in the .vscode folder.
-- [Mention any dependencies or prerequisites]
+- You can also run useing the VS comailer. 
 
 Feel free to explore the assignments, learn from the code, and use them as a reference for your own learning journey. If you have any questions or improvements, feel free to open an issue or contribute!
 

@@ -2,7 +2,13 @@
 
 ## Overview
 
-The Permutation Checker is a simple C program designed to check for permutations of a given word within a text file. It utilizes the `is_permut` function to identify and print permutations found in the specified file.
+A program that accepts two arguments on the command line: a name of an input file, and a string of characters.
+The program will scan the contents of the file, and print to the standard output all the permutations of the string that will be found in the file.
+
+**Files:**
+- `permut.c`:  Utilizes the `is_permut` function to identify and print permutations found in the specified file.
+- `permut.h`: Header file.
+- `makefile.h`:
 
 ## Usage
 
