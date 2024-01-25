@@ -69,11 +69,11 @@ To explore the assignments, navigate to the respective folders and review the RE
 **How to Run:**
 1. Open a terminal in the project directory.
 2. Run the make command that will use the makefile
-3.  ```bash
+    ```bash
      make
    ```
    The terminal output will be somthing like this:
-   ```md
+   ```bash
    gcc -g -ansi -Wall -pedantic my_progrem.c -o run
    ```
 4. Run the command:
@@ -91,3 +91,7 @@ To explore the assignments, navigate to the respective folders and review the RE
 Feel free to explore the assignments, learn from the code, and use them as a reference for your own learning journey. If you have any questions or improvements, feel free to open an issue or contribute!
 
 Happy coding!
+
+```Java
+int
+```
