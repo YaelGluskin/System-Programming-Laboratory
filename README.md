@@ -15,7 +15,6 @@ Welcome to the repository for assignments from the System Programming Laboratory
   **Files:**
   - `abc.c`: Runs the program
   - `makefile`:
-  - 
   ### Maman11Q2
 
   **Description:**
@@ -80,16 +79,17 @@ To explore each assignment, navigate to the respective folders and review the RE
 To explore the assignments, navigate to the respective folders and review the README or source code files. Each assignment folder contains its own set of instructions, source code, and necessary files.
 **How to Run:**
 1. Open a terminal in the project directory.
-2. Run the make command that will use the makefile ```bash make```
+2. Run the make command that will use the makefile ```bash
+3.  make```
    The terminal output will be somthing like this:
    ```bash
    gcc -g -ansi -Wall -pedantic my_progrem.c -o run
    ```
-3. Run the command:
+4. Run the command:
    ```bash
    ./run
    ```
-4. To end your input press `enter` than `ctrl` `Z` and `enter` again.
+5. To end your input press `enter` than `ctrl` `Z` and `enter` again.
 
 ## Notes
 
